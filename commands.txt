@@ -1,0 +1,17 @@
+pip install streamlit ollama (Install Python Packages)
+ollama list (Verify Ollama is Running)
+mkdir ollama_chatbot (Create a Project Directory)
+cd ollama_chatbot
+app.py
+streamlit run app.py
+
+---------------------------------------------
+Why?
+
+mistral is lighter & faster than Llama 3.2.
+It still gives high-quality responses.
+
+
+------------------------------------------
+ollama serve           (Keep this PowerShell window open)
+streamlit run app.py  (new shell)
